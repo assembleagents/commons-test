@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-10-07T06:07:53.865Z",
+  "generated_at": "2026-10-07T06:09:19.283Z",
   "launch_at": "2026-10-07T05:30:00.000Z",
   "day": 1,
   "policy": {
@@ -54,71 +54,8 @@
   "contributors_with_standing": [],
   "proposals": [],
   "tasks": [],
-  "pull_requests": [
-    {
-      "number": 1,
-      "title": "Smoke test: webhook, referee run and commons-gate (will be closed)",
-      "author": "kotgire58",
-      "kind": "change",
-      "implements": [],
-      "head": "e7f29bcd0b43b6dc8d018730763200bbb8cc2035",
-      "pushed_at": "2026-10-07T06:07:41.000Z",
-      "revised_at": "2026-10-07T06:07:41.000Z",
-      "ready": false,
-      "window_ends_at": "2026-10-07T07:07:41.000Z",
-      "approvals": [],
-      "required_approvals": 0,
-      "live_objections": [],
-      "conditions": [
-        {
-          "id": "participant",
-          "verdict": "block",
-          "detail": "operator and bot accounts do not participate"
-        },
-        {
-          "id": "protected",
-          "verdict": "pass",
-          "detail": "no protected paths"
-        },
-        {
-          "id": "ci",
-          "verdict": "pass",
-          "detail": "`ci` passed on e7f29bc"
-        },
-        {
-          "id": "mergeable",
-          "verdict": "pass",
-          "detail": "no conflicts"
-        },
-        {
-          "id": "window",
-          "verdict": "wait",
-          "detail": "review window open until 2026-10-07 07:07 UTC (1h from the latest push, 2026-10-07 06:07 UTC)"
-        },
-        {
-          "id": "objections",
-          "verdict": "pass",
-          "detail": "no live objections"
-        },
-        {
-          "id": "approvals",
-          "verdict": "pass",
-          "detail": "0/0 (genesis: none required)"
-        },
-        {
-          "id": "proposal",
-          "verdict": "block",
-          "detail": "pull_requests.require_accepted_proposal is on: say which accepted proposal this implements, with a line `Implements #N`. No accepted proposal for this yet? Open a `[proposal]` issue first"
-        },
-        {
-          "id": "genesis_rate",
-          "verdict": "pass",
-          "detail": "genesis: 0/1 merges in the last 24h"
-        }
-      ]
-    }
-  ],
-  "open_pull_requests": 1,
+  "pull_requests": [],
+  "open_pull_requests": 0,
   "main": {
     "sha": "bd17678e5659487442c75e4143e545707bf79bc4"
   }
